@@ -1,0 +1,1385 @@
+[
+  {
+    "charId": "char_197_poca",
+    "level": "高级资深干员",
+    "name": "早露",
+    "position": "远程位",
+    "profession": "狙击干员",
+    "rarity": 6,
+    "tags": [
+      "控场",
+      "输出"
+    ]
+  },
+  {
+    "charId": "char_400_weedy",
+    "level": "高级资深干员",
+    "name": "温蒂",
+    "position": "近战位",
+    "profession": "特种干员",
+    "rarity": 6,
+    "tags": [
+      "位移",
+      "控场",
+      "输出"
+    ]
+  },
+  {
+    "charId": "char_250_phatom",
+    "level": "高级资深干员",
+    "name": "傀影",
+    "position": "近战位",
+    "profession": "特种干员",
+    "rarity": 6,
+    "tags": [
+      "快速复活",
+      "控场",
+      "输出"
+    ]
+  },
+  {
+    "charId": "char_2013_cerber",
+    "level": "高级资深干员",
+    "name": "刻俄柏",
+    "position": "远程位",
+    "profession": "术师干员",
+    "rarity": 6,
+    "tags": [
+      "输出",
+      "控场"
+    ]
+  },
+  {
+    "charId": "char_225_haak",
+    "level": "高级资深干员",
+    "name": "阿",
+    "position": "远程位",
+    "profession": "特种干员",
+    "rarity": 6,
+    "tags": [
+      "支援",
+      "输出"
+    ]
+  },
+  {
+    "charId": "char_017_huang",
+    "level": "高级资深干员",
+    "name": "煌",
+    "position": "近战位",
+    "profession": "近卫干员",
+    "rarity": 6,
+    "tags": [
+      "输出",
+      "生存"
+    ]
+  },
+  {
+    "charId": "char_213_mostma",
+    "level": "高级资深干员",
+    "name": "莫斯提马",
+    "position": "远程位",
+    "profession": "术师干员",
+    "rarity": 6,
+    "tags": [
+      "群攻",
+      "支援",
+      "控场"
+    ]
+  },
+  {
+    "charId": "char_248_mgllan",
+    "level": "高级资深干员",
+    "name": "麦哲伦",
+    "position": "远程位",
+    "profession": "辅助干员",
+    "rarity": 6,
+    "tags": [
+      "支援",
+      "减速",
+      "输出"
+    ]
+  },
+  {
+    "charId": "char_188_helage",
+    "level": "高级资深干员",
+    "name": "赫拉格",
+    "position": "近战位",
+    "profession": "近卫干员",
+    "rarity": 6,
+    "tags": [
+      "输出",
+      "生存"
+    ]
+  },
+  {
+    "charId": "char_340_shwaz",
+    "level": "高级资深干员",
+    "name": "黑",
+    "position": "远程位",
+    "profession": "狙击干员",
+    "rarity": 6,
+    "tags": [
+      "输出"
+    ]
+  },
+  {
+    "charId": "char_010_chen",
+    "level": "高级资深干员",
+    "name": "陈",
+    "position": "近战位",
+    "profession": "近卫干员",
+    "rarity": 6,
+    "tags": [
+      "爆发",
+      "输出"
+    ]
+  },
+  {
+    "charId": "char_263_skadi",
+    "level": "高级资深干员",
+    "name": "斯卡蒂",
+    "position": "近战位",
+    "profession": "近卫干员",
+    "rarity": 6,
+    "tags": [
+      "输出",
+      "生存"
+    ]
+  },
+  {
+    "charId": "char_172_svrash",
+    "level": "高级资深干员",
+    "name": "银灰",
+    "position": "近战位",
+    "profession": "近卫干员",
+    "rarity": 6,
+    "tags": [
+      "输出",
+      "支援"
+    ]
+  },
+  {
+    "charId": "char_202_demkni",
+    "level": "高级资深干员",
+    "name": "塞雷娅",
+    "position": "近战位",
+    "profession": "重装干员",
+    "rarity": 6,
+    "tags": [
+      "防护",
+      "治疗",
+      "支援"
+    ]
+  },
+  {
+    "charId": "char_136_hsguma",
+    "level": "高级资深干员",
+    "name": "星熊",
+    "position": "近战位",
+    "profession": "重装干员",
+    "rarity": 6,
+    "tags": [
+      "防护",
+      "输出"
+    ]
+  },
+  {
+    "charId": "char_179_cgbird",
+    "level": "高级资深干员",
+    "name": "夜莺",
+    "position": "远程位",
+    "profession": "医疗干员",
+    "rarity": 6,
+    "tags": [
+      "治疗",
+      "支援"
+    ]
+  },
+  {
+    "charId": "char_147_shining",
+    "level": "高级资深干员",
+    "name": "闪灵",
+    "position": "远程位",
+    "profession": "医疗干员",
+    "rarity": 6,
+    "tags": [
+      "治疗",
+      "支援"
+    ]
+  },
+  {
+    "charId": "char_134_ifrit",
+    "level": "高级资深干员",
+    "name": "伊芙利特",
+    "position": "远程位",
+    "profession": "术师干员",
+    "rarity": 6,
+    "tags": [
+      "群攻",
+      "削弱"
+    ]
+  },
+  {
+    "charId": "char_112_siege",
+    "level": "高级资深干员",
+    "name": "推进之王",
+    "position": "近战位",
+    "profession": "先锋干员",
+    "rarity": 6,
+    "tags": [
+      "费用回复",
+      "输出"
+    ]
+  },
+  {
+    "charId": "char_103_angel",
+    "level": "高级资深干员",
+    "name": "能天使",
+    "position": "远程位",
+    "profession": "狙击干员",
+    "rarity": 6,
+    "tags": [
+      "输出"
+    ]
+  },
+  {
+    "charId": "char_222_bpipe",
+    "level": "高级资深干员",
+    "name": "风笛",
+    "position": "近战位",
+    "profession": "先锋干员",
+    "rarity": 6,
+    "tags": [
+      "费用回复",
+      "输出"
+    ]
+  },
+  {
+    "charId": "char_343_tknogi",
+    "level": "资深干员",
+    "name": "莱恩哈特",
+    "position": "远程位",
+    "profession": "术师干员",
+    "rarity": 5,
+    "tags": [
+      "群攻",
+      "爆发"
+    ]
+  },
+  {
+    "charId": "char_343_tknogi",
+    "level": "资深干员",
+    "name": "月禾",
+    "position": "远程位",
+    "profession": "辅助干员",
+    "rarity": 5,
+    "tags": [
+      "支援",
+      "生存"
+    ]
+  },
+  {
+    "charId": "char_378_asbest",
+    "level": "资深干员",
+    "name": "石棉",
+    "position": "近战位",
+    "profession": "重装干员",
+    "rarity": 5,
+    "tags": [
+      "防护",
+      "输出"
+    ]
+  },
+  {
+    "charId": "char_401_elysm",
+    "level": "资深干员",
+    "name": "极境",
+    "position": "近战位",
+    "profession": "先锋干员",
+    "rarity": 5,
+    "tags": [
+      "费用回复",
+      "支援"
+    ]
+  },
+  {
+    "charId": "char_254_vodfox",
+    "level": "资深干员",
+    "name": "巫恋",
+    "position": "远程位",
+    "profession": "辅助干员",
+    "rarity": 5,
+    "tags": [
+      "削弱"
+    ]
+  },
+  {
+    "charId": "char_306_leizi",
+    "level": "资深干员",
+    "name": "惊蛰",
+    "position": "远程位",
+    "profession": "术师干员",
+    "rarity": 5,
+    "tags": [
+      "输出"
+    ]
+  },
+  {
+    "charId": "char_226_hmau",
+    "level": "资深干员",
+    "name": "吽",
+    "position": "近战位",
+    "profession": "重装干员",
+    "rarity": 5,
+    "tags": [
+      "防护",
+      "治疗"
+    ]
+  },
+  {
+    "charId": "char_367_swllow",
+    "level": "资深干员",
+    "name": "灰喉",
+    "position": "远程位",
+    "profession": "狙击干员",
+    "rarity": 5,
+    "tags": [
+      "输出"
+    ]
+  },
+  {
+    "charId": "char_356_broca",
+    "level": "资深干员",
+    "name": "布洛卡",
+    "position": "近战位",
+    "profession": "近卫干员",
+    "rarity": 5,
+    "tags": [
+      "群攻",
+      "生存"
+    ]
+  },
+  {
+    "charId": "char_261_sddrag",
+    "level": "资深干员",
+    "name": "苇草",
+    "position": "近战位",
+    "profession": "先锋干员",
+    "rarity": 5,
+    "tags": [
+      "费用回复",
+      "输出"
+    ]
+  },
+  {
+    "charId": "char_243_waaifu",
+    "level": "资深干员",
+    "name": "槐琥",
+    "position": "近战位",
+    "profession": "特种干员",
+    "rarity": 5,
+    "tags": [
+      "快速复活",
+      "削弱"
+    ]
+  },
+  {
+    "charId": "char_279_excu",
+    "level": "资深干员",
+    "name": "送葬人",
+    "position": "远程位",
+    "profession": "狙击干员",
+    "rarity": 5,
+    "tags": [
+      "群攻"
+    ]
+  },
+  {
+    "charId": "char_274_astesi",
+    "level": "资深干员",
+    "name": "星极",
+    "position": "近战位",
+    "profession": "近卫干员",
+    "rarity": 5,
+    "tags": [
+      "输出",
+      "防护"
+    ]
+  },
+  {
+    "charId": "char_326_glacus",
+    "level": "资深干员",
+    "name": "格劳克斯",
+    "position": "远程位",
+    "profession": "辅助干员",
+    "rarity": 5,
+    "tags": [
+      "减速",
+      "控场"
+    ]
+  },
+  {
+    "charId": "char_308_swire",
+    "level": "资深干员",
+    "name": "诗怀雅",
+    "position": "近战位",
+    "profession": "近卫干员",
+    "rarity": 5,
+    "tags": [
+      "输出",
+      "支援"
+    ]
+  },
+  {
+    "charId": "char_164_nightm",
+    "level": "资深干员",
+    "name": "夜魔",
+    "position": "远程位",
+    "profession": "术师干员",
+    "rarity": 5,
+    "tags": [
+      "输出",
+      "治疗",
+      "减速"
+    ]
+  },
+  {
+    "charId": "char_241_panda",
+    "level": "资深干员",
+    "name": "食铁兽",
+    "position": "近战位",
+    "profession": "特种干员",
+    "rarity": 5,
+    "tags": [
+      "位移",
+      "减速"
+    ]
+  },
+  {
+    "charId": "char_215_mantic",
+    "level": "资深干员",
+    "name": "狮蝎",
+    "position": "近战位",
+    "profession": "特种干员",
+    "rarity": 5,
+    "tags": [
+      "输出",
+      "生存"
+    ]
+  },
+  {
+    "charId": "char_195_glassb",
+    "level": "资深干员",
+    "name": "真理",
+    "position": "远程位",
+    "profession": "辅助干员",
+    "rarity": 5,
+    "tags": [
+      "减速",
+      "输出"
+    ]
+  },
+  {
+    "charId": "char_174_slbell",
+    "level": "资深干员",
+    "name": "初雪",
+    "position": "远程位",
+    "profession": "辅助干员",
+    "rarity": 5,
+    "tags": [
+      "削弱"
+    ]
+  },
+  {
+    "charId": "char_173_slchan",
+    "level": "资深干员",
+    "name": "崖心",
+    "position": "近战位",
+    "profession": "特种干员",
+    "rarity": 5,
+    "tags": [
+      "位移",
+      "输出"
+    ]
+  },
+  {
+    "charId": "char_158_milu",
+    "level": "资深干员",
+    "name": "守林人",
+    "position": "远程位",
+    "profession": "狙击干员",
+    "rarity": 5,
+    "tags": [
+      "输出",
+      "爆发"
+    ]
+  },
+  {
+    "charId": "char_145_prove",
+    "level": "资深干员",
+    "name": "普罗旺斯",
+    "position": "远程位",
+    "profession": "狙击干员",
+    "rarity": 5,
+    "tags": [
+      "输出"
+    ]
+  },
+  {
+    "charId": "char_163_hpsts",
+    "level": "资深干员",
+    "name": "火神",
+    "position": "近战位",
+    "profession": "重装干员",
+    "rarity": 5,
+    "tags": [
+      "生存",
+      "防护",
+      "输出"
+    ]
+  },
+  {
+    "charId": "char_201_moeshd",
+    "level": "资深干员",
+    "name": "可颂",
+    "position": "近战位",
+    "profession": "重装干员",
+    "rarity": 5,
+    "tags": [
+      "防护",
+      "位移"
+    ]
+  },
+  {
+    "charId": "char_107_liskam",
+    "level": "资深干员",
+    "name": "雷蛇",
+    "position": "近战位",
+    "profession": "重装干员",
+    "rarity": 5,
+    "tags": [
+      "防护",
+      "输出"
+    ]
+  },
+  {
+    "charId": "char_144_red",
+    "level": "资深干员",
+    "name": "红",
+    "position": "近战位",
+    "profession": "特种干员",
+    "rarity": 5,
+    "tags": [
+      "快速复活",
+      "控场"
+    ]
+  },
+  {
+    "charId": "char_148_nearl",
+    "level": "资深干员",
+    "name": "临光",
+    "position": "近战位",
+    "profession": "重装干员",
+    "rarity": 5,
+    "tags": [
+      "防护",
+      "治疗"
+    ]
+  },
+  {
+    "charId": "char_171_bldsk",
+    "level": "资深干员",
+    "name": "华法琳",
+    "position": "远程位",
+    "profession": "医疗干员",
+    "rarity": 5,
+    "tags": [
+      "治疗",
+      "支援"
+    ]
+  },
+  {
+    "charId": "char_108_silent",
+    "level": "资深干员",
+    "name": "赫默",
+    "position": "远程位",
+    "profession": "医疗干员",
+    "rarity": 5,
+    "tags": [
+      "治疗"
+    ]
+  },
+  {
+    "charId": "char_242_otter",
+    "level": "资深干员",
+    "name": "梅尔",
+    "position": "远程位",
+    "profession": "辅助干员",
+    "rarity": 5,
+    "tags": [
+      "召唤",
+      "控场"
+    ]
+  },
+  {
+    "charId": "char_219_meteo",
+    "level": "资深干员",
+    "name": "陨星",
+    "position": "远程位",
+    "profession": "狙击干员",
+    "rarity": 5,
+    "tags": [
+      "群攻",
+      "削弱"
+    ]
+  },
+  {
+    "charId": "char_204_platnm",
+    "level": "资深干员",
+    "name": "白金",
+    "position": "远程位",
+    "profession": "狙击干员",
+    "rarity": 5,
+    "tags": [
+      "输出"
+    ]
+  },
+  {
+    "charId": "char_129_bluep",
+    "level": "资深干员",
+    "name": "蓝毒",
+    "position": "远程位",
+    "profession": "狙击干员",
+    "rarity": 5,
+    "tags": [
+      "输出"
+    ]
+  },
+  {
+    "charId": "char_143_ghost",
+    "level": "资深干员",
+    "name": "幽灵鲨",
+    "position": "近战位",
+    "profession": "近卫干员",
+    "rarity": 5,
+    "tags": [
+      "群攻",
+      "生存"
+    ]
+  },
+  {
+    "charId": "char_155_tiger",
+    "level": "资深干员",
+    "name": "因陀罗",
+    "position": "近战位",
+    "profession": "近卫干员",
+    "rarity": 5,
+    "tags": [
+      "输出",
+      "生存"
+    ]
+  },
+  {
+    "charId": "char_102_texas",
+    "level": "资深干员",
+    "name": "德克萨斯",
+    "position": "近战位",
+    "profession": "先锋干员",
+    "rarity": 5,
+    "tags": [
+      "费用回复",
+      "控场"
+    ]
+  },
+  {
+    "charId": "char_115_headbr",
+    "level": "资深干员",
+    "name": "凛冬",
+    "position": "近战位",
+    "profession": "先锋干员",
+    "rarity": 5,
+    "tags": [
+      "费用回复",
+      "支援"
+    ]
+  },
+  {
+    "charId": "char_128_plosis",
+    "level": "资深干员",
+    "name": "白面鸮",
+    "position": "远程位",
+    "profession": "医疗干员",
+    "rarity": 5,
+    "tags": [
+      "治疗",
+      "支援"
+    ]
+  },
+  {
+    "charId": "char_379_sesa",
+    "level": "资深干员",
+    "name": "慑砂",
+    "position": "远程位",
+    "profession": "狙击干员",
+    "rarity": 5,
+    "tags": [
+      "群攻",
+      "削弱"
+    ]
+  },
+  {
+    "charId": "char_258_podego",
+    "level": "0",
+    "name": "波登可",
+    "position": "远程位",
+    "profession": "辅助干员",
+    "rarity": 4,
+    "tags": [
+      "治疗",
+      "减速"
+    ]
+  },
+  {
+    "charId": "char_301_cutter",
+    "level": "0",
+    "name": "刻刀",
+    "position": "近战位",
+    "profession": "近卫干员",
+    "rarity": 4,
+    "tags": [
+      "爆发",
+      "输出"
+    ]
+  },
+  {
+    "charId": "char_385_finlpp",
+    "level": "0",
+    "name": "清流",
+    "position": "远程位",
+    "profession": "医疗干员",
+    "rarity": 4,
+    "tags": [
+      "治疗",
+      "支援"
+    ]
+  },
+  {
+    "charId": "char_302_glaze",
+    "level": "0",
+    "name": "安比尔",
+    "position": "远程位",
+    "profession": "狙击干员",
+    "rarity": 4,
+    "tags": [
+      "输出",
+      "减速"
+    ]
+  },
+  {
+    "charId": "char_133_mm",
+    "level": "0",
+    "name": "梅",
+    "position": "远程位",
+    "profession": "狙击干员",
+    "rarity": 4,
+    "tags": [
+      "输出",
+      "减速"
+    ]
+  },
+  {
+    "charId": "char_190_clour",
+    "level": "0",
+    "name": "红云",
+    "position": "远程位",
+    "profession": "狙击干员",
+    "rarity": 4,
+    "tags": [
+      "输出"
+    ]
+  },
+  {
+    "charId": "char_151_myrtle",
+    "level": "0",
+    "name": "桃金娘",
+    "position": "近战位",
+    "profession": "先锋干员",
+    "rarity": 4,
+    "tags": [
+      "费用回复",
+      "治疗"
+    ]
+  },
+  {
+    "charId": "char_298_susuro",
+    "level": "0",
+    "name": "苏苏洛",
+    "position": "远程位",
+    "profession": "医疗干员",
+    "rarity": 4,
+    "tags": [
+      "治疗"
+    ]
+  },
+  {
+    "charId": "char_253_greyy",
+    "level": "0",
+    "name": "格雷伊",
+    "position": "远程位",
+    "profession": "术师干员",
+    "rarity": 4,
+    "tags": [
+      "群攻",
+      "减速"
+    ]
+  },
+  {
+    "charId": "char_137_brownb",
+    "level": "0",
+    "name": "猎蜂",
+    "position": "近战位",
+    "profession": "近卫干员",
+    "rarity": 4,
+    "tags": [
+      "输出"
+    ]
+  },
+  {
+    "charId": "char_277_sqrrel",
+    "level": "0",
+    "name": "阿消",
+    "position": "近战位",
+    "profession": "特种干员",
+    "rarity": 4,
+    "tags": [
+      "位移"
+    ]
+  },
+  {
+    "charId": "char_183_skgoat",
+    "level": "0",
+    "name": "地灵",
+    "position": "远程位",
+    "profession": "辅助干员",
+    "rarity": 4,
+    "tags": [
+      "减速"
+    ]
+  },
+  {
+    "charId": "char_196_sunbr",
+    "level": "0",
+    "name": "古米",
+    "position": "近战位",
+    "profession": "重装干员",
+    "rarity": 4,
+    "tags": [
+      "防护",
+      "治疗"
+    ]
+  },
+  {
+    "charId": "char_150_snakek",
+    "level": "0",
+    "name": "蛇屠箱",
+    "position": "近战位",
+    "profession": "重装干员",
+    "rarity": 4,
+    "tags": [
+      "防护"
+    ]
+  },
+  {
+    "charId": "char_199_yak",
+    "level": "0",
+    "name": "角峰",
+    "position": "近战位",
+    "profession": "重装干员",
+    "rarity": 4,
+    "tags": [
+      "防护"
+    ]
+  },
+  {
+    "charId": "char_181_flower",
+    "level": "0",
+    "name": "调香师",
+    "position": "远程位",
+    "profession": "医疗干员",
+    "rarity": 4,
+    "tags": [
+      "治疗"
+    ]
+  },
+  {
+    "charId": "char_117_myrrh",
+    "level": "0",
+    "name": "末药",
+    "position": "远程位",
+    "profession": "医疗干员",
+    "rarity": 4,
+    "tags": [
+      "治疗"
+    ]
+  },
+  {
+    "charId": "char_236_rope",
+    "level": "0",
+    "name": "暗索",
+    "position": "近战位",
+    "profession": "特种干员",
+    "rarity": 4,
+    "tags": [
+      "位移"
+    ]
+  },
+  {
+    "charId": "char_237_gravel",
+    "level": "0",
+    "name": "砾",
+    "position": "近战位",
+    "profession": "特种干员",
+    "rarity": 4,
+    "tags": [
+      "快速复活",
+      "防护"
+    ]
+  },
+  {
+    "charId": "char_185_frncat",
+    "level": "0",
+    "name": "慕斯",
+    "position": "近战位",
+    "profession": "近卫干员",
+    "rarity": 4,
+    "tags": [
+      "输出"
+    ]
+  },
+  {
+    "charId": "char_127_estell",
+    "level": "0",
+    "name": "艾丝黛尔",
+    "position": "近战位",
+    "profession": "近卫干员",
+    "rarity": 4,
+    "tags": [
+      "群攻",
+      "生存"
+    ]
+  },
+  {
+    "charId": "char_193_frostl",
+    "level": "0",
+    "name": "霜叶",
+    "position": "近战位",
+    "profession": "近卫干员",
+    "rarity": 4,
+    "tags": [
+      "减速",
+      "输出"
+    ]
+  },
+  {
+    "charId": "char_289_gyuki",
+    "level": "0",
+    "name": "缠丸",
+    "position": "近战位",
+    "profession": "近卫干员",
+    "rarity": 4,
+    "tags": [
+      "生存",
+      "输出"
+    ]
+  },
+  {
+    "charId": "char_130_doberm",
+    "level": "0",
+    "name": "杜宾",
+    "position": "近战位",
+    "profession": "近卫干员",
+    "rarity": 4,
+    "tags": [
+      "输出",
+      "支援"
+    ]
+  },
+  {
+    "charId": "char_290_vigna",
+    "level": "0",
+    "name": "红豆",
+    "position": "近战位",
+    "profession": "先锋干员",
+    "rarity": 4,
+    "tags": [
+      "输出",
+      "费用回复"
+    ]
+  },
+  {
+    "charId": "char_149_scave",
+    "level": "0",
+    "name": "清道夫",
+    "position": "近战位",
+    "profession": "先锋干员",
+    "rarity": 4,
+    "tags": [
+      "费用回复",
+      "输出"
+    ]
+  },
+  {
+    "charId": "char_118_yuki",
+    "level": "0",
+    "name": "白雪",
+    "position": "远程位",
+    "profession": "狙击干员",
+    "rarity": 4,
+    "tags": [
+      "群攻",
+      "减速"
+    ]
+  },
+  {
+    "charId": "char_126_shotst",
+    "level": "0",
+    "name": "流星",
+    "position": "远程位",
+    "profession": "狙击干员",
+    "rarity": 4,
+    "tags": [
+      "输出",
+      "削弱"
+    ]
+  },
+  {
+    "charId": "char_235_jesica",
+    "level": "0",
+    "name": "杰西卡",
+    "position": "远程位",
+    "profession": "狙击干员",
+    "rarity": 4,
+    "tags": [
+      "输出",
+      "生存"
+    ]
+  },
+  {
+    "charId": "char_109_fmout",
+    "level": "0",
+    "name": "远山",
+    "position": "远程位",
+    "profession": "术师干员",
+    "rarity": 4,
+    "tags": [
+      "群攻"
+    ]
+  },
+  {
+    "charId": "char_141_nights",
+    "level": "0",
+    "name": "夜烟",
+    "position": "远程位",
+    "profession": "术师干员",
+    "rarity": 4,
+    "tags": [
+      "输出",
+      "削弱"
+    ]
+  },
+  {
+    "charId": "char_337_utage",
+    "level": "0",
+    "name": "宴",
+    "position": "近战位",
+    "profession": "近卫干员",
+    "rarity": 4,
+    "tags": [
+      "输出",
+      "生存"
+    ]
+  },
+  {
+    "charId": "char_284_spot",
+    "level": "0",
+    "name": "斑点",
+    "position": "近战位",
+    "profession": "重装干员",
+    "rarity": 3,
+    "tags": [
+      "防护",
+      "治疗"
+    ]
+  },
+  {
+    "charId": "char_281_popka",
+    "level": "0",
+    "name": "泡普卡",
+    "position": "近战位",
+    "profession": "近卫干员",
+    "rarity": 3,
+    "tags": [
+      "群攻",
+      "生存"
+    ]
+  },
+  {
+    "charId": "char_283_midn",
+    "level": "0",
+    "name": "月见夜",
+    "position": "近战位",
+    "profession": "近卫干员",
+    "rarity": 3,
+    "tags": [
+      "输出"
+    ]
+  },
+  {
+    "charId": "char_282_catap",
+    "level": "0",
+    "name": "空爆",
+    "position": "远程位",
+    "profession": "狙击干员",
+    "rarity": 3,
+    "tags": [
+      "群攻"
+    ]
+  },
+  {
+    "charId": "char_278_orchid",
+    "level": "0",
+    "name": "梓兰",
+    "position": "远程位",
+    "profession": "辅助干员",
+    "rarity": 3,
+    "tags": [
+      "减速"
+    ]
+  },
+  {
+    "charId": "char_210_stward",
+    "level": "0",
+    "name": "史都华德",
+    "position": "远程位",
+    "profession": "术师干员",
+    "rarity": 3,
+    "tags": [
+      "输出"
+    ]
+  },
+  {
+    "charId": "char_212_ansel",
+    "level": "0",
+    "name": "安赛尔",
+    "position": "远程位",
+    "profession": "医疗干员",
+    "rarity": 3,
+    "tags": [
+      "治疗"
+    ]
+  },
+  {
+    "charId": "char_120_hibisc",
+    "level": "0",
+    "name": "芙蓉",
+    "position": "远程位",
+    "profession": "医疗干员",
+    "rarity": 3,
+    "tags": [
+      "治疗"
+    ]
+  },
+  {
+    "charId": "char_121_lava",
+    "level": "0",
+    "name": "炎熔",
+    "position": "远程位",
+    "profession": "术师干员",
+    "rarity": 3,
+    "tags": [
+      "群攻"
+    ]
+  },
+  {
+    "charId": "char_211_adnach",
+    "level": "0",
+    "name": "安德切尔",
+    "position": "远程位",
+    "profession": "狙击干员",
+    "rarity": 3,
+    "tags": [
+      "输出"
+    ]
+  },
+  {
+    "charId": "char_124_kroos",
+    "level": "0",
+    "name": "克洛丝",
+    "position": "远程位",
+    "profession": "狙击干员",
+    "rarity": 3,
+    "tags": [
+      "输出"
+    ]
+  },
+  {
+    "charId": "char_122_beagle",
+    "level": "0",
+    "name": "米格鲁",
+    "position": "近战位",
+    "profession": "重装干员",
+    "rarity": 3,
+    "tags": [
+      "防护"
+    ]
+  },
+  {
+    "charId": "char_208_melan",
+    "level": "0",
+    "name": "玫兰莎",
+    "position": "近战位",
+    "profession": "近卫干员",
+    "rarity": 3,
+    "tags": [
+      "输出",
+      "生存"
+    ]
+  },
+  {
+    "charId": "char_192_falco",
+    "level": "0",
+    "name": "翎羽",
+    "position": "近战位",
+    "profession": "先锋干员",
+    "rarity": 3,
+    "tags": [
+      "输出",
+      "费用回复"
+    ]
+  },
+  {
+    "charId": "char_240_wyvern",
+    "level": "0",
+    "name": "香草",
+    "position": "近战位",
+    "profession": "先锋干员",
+    "rarity": 3,
+    "tags": [
+      "费用回复"
+    ]
+  },
+  {
+    "charId": "char_123_fang",
+    "level": "0",
+    "name": "芬",
+    "position": "近战位",
+    "profession": "先锋干员",
+    "rarity": 3,
+    "tags": [
+      "费用回复"
+    ]
+  },
+  {
+    "charId": "char_009_12fce",
+    "level": "0",
+    "name": "12F",
+    "position": "远程位",
+    "profession": "术师干员",
+    "rarity": 2,
+    "tags": [
+      "新手"
+    ]
+  },
+  {
+    "charId": "char_501_durin",
+    "level": "0",
+    "name": "杜林",
+    "position": "远程位",
+    "profession": "术师干员",
+    "rarity": 2,
+    "tags": [
+      "新手"
+    ]
+  },
+  {
+    "charId": "char_503_rang",
+    "level": "0",
+    "name": "巡林者",
+    "position": "远程位",
+    "profession": "狙击干员",
+    "rarity": 2,
+    "tags": [
+      "新手"
+    ]
+  },
+  {
+    "charId": "char_500_noirc",
+    "level": "0",
+    "name": "黑角",
+    "position": "近战位",
+    "profession": "重装干员",
+    "rarity": 2,
+    "tags": [
+      "新手"
+    ]
+  },
+  {
+    "charId": "char_502_nblade",
+    "level": "0",
+    "name": "夜刀",
+    "position": "近战位",
+    "profession": "先锋干员",
+    "rarity": 2,
+    "tags": [
+      "新手"
+    ]
+  },
+  {
+    "charId": "char_286_cast3",
+    "level": "0",
+    "name": "Castle-3",
+    "position": "近战位",
+    "profession": "近卫干员",
+    "rarity": 1,
+    "tags": [
+      "支援",
+      "支援机械"
+    ]
+  },
+  {
+    "charId": "char_285_medic2",
+    "level": "0",
+    "name": "Lancet-2",
+    "position": "远程位",
+    "profession": "医疗干员",
+    "rarity": 1,
+    "tags": [
+      "治疗",
+      "支援机械"
+    ]
+  },
+  {
+    "charId": "char_376_therex",
+    "level": "0",
+    "name": "THRM-EX",
+    "position": "近战位",
+    "profession": "特种干员",
+    "rarity": 1,
+    "tags": [
+      "爆发",
+      "支援机械"
+    ]
+  },
+  {
+    "charId": "char_4000_jnight",
+    "level": "0",
+    "name": "正义骑士号",
+    "position": "远程位",
+    "profession": "狙击干员",
+    "rarity": 1,
+    "tags": [
+      "支援",
+      "支援机械"
+    ]
+  }
+]

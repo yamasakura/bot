@@ -1,0 +1,10 @@
+server:
+  port: 10015
+
+
+filePath:
+  bot: src/main/resources/bot/
+  cqHttpIp: 127.0.0.1
+  check: src/main/resources/check/
+
+
