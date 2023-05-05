@@ -72,61 +72,7 @@ public class BotService {
     }
 
 
-    private static HashMap<Object, Object> getMessageMap(String message, boolean messageType) {
-        HashMap<Object, Object> messageMap = new HashMap<>();
-        HashMap<Object, Object> content = new HashMap<>();
-        content.put("name", "桜");
-        content.put("uin", "1820702789");
-        if (messageType) {
-            content.put("content", message);
-        } else {
-            HashMap<Object, Object> text = new HashMap<>();
-            text.put("text", message);
-            HashMap<Object, Object> textMap = new HashMap<>();
-            textMap.put("type", "text");
-            textMap.put("data", text);
-            List<HashMap<Object, Object>> list = new ArrayList<>();
-            list.add(textMap);
-            content.put("content", list);
-        }
 
-        messageMap.put("type", "node");
-        messageMap.put("data", content);
-        return messageMap;
-    }
-
-    public void sendGroupMessage(long group_id, String message) {
-        String str = null;
-
-        try {
-            str = URLEncoder.encode(message, "UTF-8");
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
-        String url = "http://" + FileConfig.CqHttpIp + ":5700/send_group_forward_msg?group_id=" + group_id + "&messages=" +
-                str;
-        String result = HttpRequestUtil.doGet(url, new HashMap<>());
-        log.info("发送成功:==>{}", result);
-    }
-
-    public void sendMessage(long group_id, String message) {
-        String str = null;
-        try {
-            str = URLEncoder.encode(message, "UTF-8");
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
-
-        String url = "http://" + FileConfig.CqHttpIp + ":5700/send_group_msg?group_id=" + group_id + "&message=" +
-                str;
-        String result = HttpRequestUtil.doGet(url, new HashMap<>());
-        log.info("发送成功:==>{}", result);
-    }
-
-    public void sendImage(String url) {
-        String result = HttpRequestUtil.doGet(url, new HashMap<>());
-        log.info("发送成功:==>{}", result);
-    }
 
 
     public void wbSendByPhone(List<Long> group_ids) {
@@ -437,7 +383,7 @@ public class BotService {
 
 
 
-    public  String checkData(){
+    public  String checkPenguinData(){
 
         String penguin_url = "https://penguin-stats.io/PenguinStats/api/v2/result/matrix?show_closed_zones=true";
         String stage_url = "https://backend.yituliu.site/stage";
@@ -462,8 +408,6 @@ public class BotService {
         oldData.forEach(penguin->oldDataMap.put(penguin.getStageId()+"_"+penguin.getItemId(),(double)penguin.getQuantity()/(double)penguin.getTimes()*100));
         StringBuilder message = new StringBuilder();
 
-
-
         for(PenguinDataResponseVo penguin:newData){
             double newDataProbability = (double)penguin.getQuantity()/(double)penguin.getTimes()*100;
             if(oldDataMap.get(penguin.getStageId()+"_"+penguin.getItemId())==null) continue;
@@ -472,32 +416,41 @@ public class BotService {
             if(penguin.getTimes()<300) continue;
             ItemVo itemVo = itemMap.get(penguin.getItemId());
             double oldDataProbability  = oldDataMap.get(penguin.getStageId()+"_"+penguin.getItemId());
-            double absolute  =  newDataProbability - oldDataProbability>0?newDataProbability - oldDataProbability:-(newDataProbability - oldDataProbability);
-            if( itemVo.getRarity()==4){
-                if(oldDataProbability<10&&absolute>0.3)
-                    messageAppend(message,stageMap.get(penguin.getStageId()),itemVo.getItemName(),absolute);
-                if(oldDataProbability>=10&&absolute>0.5)
-                    messageAppend(message,stageMap.get(penguin.getStageId()),itemVo.getItemName(),absolute);
+            double difference = newDataProbability - oldDataProbability;
+            double absolute  =  difference>0?difference:-difference;
+
+            if( itemVo.getRarity()==4){     //判断是紫色品质
+                if(oldDataProbability<10&&absolute>0.4)   //掉率<10%的±0.3%记录
+                    messageAppend(message,stageMap.get(penguin.getStageId()),itemVo.getItemName(),absolute,difference);
+                if(oldDataProbability>=10&&absolute>0.8)  //掉率>10%的±0.5%记录
+                    messageAppend(message,stageMap.get(penguin.getStageId()),itemVo.getItemName(),absolute,difference);
             }
 
-            if( itemVo.getRarity()==3){
-                if(oldDataProbability<20&&absolute>0.5)
-                    messageAppend(message,stageMap.get(penguin.getStageId()),itemVo.getItemName(),absolute);
-                if(oldDataProbability>=20&&absolute>1)
-                    messageAppend(message,stageMap.get(penguin.getStageId()),itemVo.getItemName(),absolute);
+            if( itemVo.getRarity()==3){   //判断是蓝色品质
+                if(oldDataProbability<20&&absolute>0.5)  //掉率<20%的±0.5%记录
+                    messageAppend(message,stageMap.get(penguin.getStageId()),itemVo.getItemName(),absolute,difference);
+                if(oldDataProbability>=20&&absolute>1)   //掉率>20%的±1%记录
+                    messageAppend(message,stageMap.get(penguin.getStageId()),itemVo.getItemName(),absolute,difference);
             }
-//            if( itemVo.getRarity()==3&&absolute>1.5)
+
 
         }
         System.out.println(message);
+        String messageStr = String.valueOf(message);
+        if(messageStr.length()>3000) messageStr = "超出单条消息长度";
+        if(messageStr.length()<5) messageStr = "无事发生";
+        List<HashMap<Object, Object>> groupMessage = new ArrayList<>();  //QQ转发消息数组
+        HashMap<Object, Object> messageMap = getMessageMap(messageStr, false);
+        groupMessage.add(messageMap);
+        sendGroupMessage(189844877L, JSON.toJSONString(groupMessage));
 
-        return String.valueOf(message);
+        return messageStr;
     }
 
-    private static void messageAppend(StringBuilder message, String stageId,String itemName,Double absolute){
+    private static void messageAppend(StringBuilder message, String stageId,String itemName,Double absolute,Double difference){
         DecimalFormat decimalFormat = new DecimalFormat("0.0");
-         message.append(stageId).append("的").append(itemName)
-                        .append("变化了").append(decimalFormat.format(absolute)).append("%\n");
+         message.append(stageId).append("的[").append(itemName)
+                        .append("]\n掉率").append(difference>0?("+"+decimalFormat.format(difference)):decimalFormat.format(difference)).append("%\n\n");
     }
 
     public String checkItemData() {
@@ -518,10 +471,72 @@ public class BotService {
 
             double absolute = (1-(itemValueAp/newItemValueAp))>0?(1-(itemValueAp/newItemValueAp)):-(1-(itemValueAp/newItemValueAp));
 
-            if(absolute>0.05) message.append(itemVo.getItemName()).append("变化了").append(decimalFormat.format(absolute)).append("%\n");
+            if(absolute>0.05) message.append(itemVo.getItemName()).append("浮动").append(decimalFormat.format(absolute)).append("%\n");
 
         }
         System.out.println(message);
       return String.valueOf(message);
+    }
+
+
+
+
+
+
+
+    private static HashMap<Object, Object> getMessageMap(String message, boolean messageType) {
+        HashMap<Object, Object> messageMap = new HashMap<>();
+        HashMap<Object, Object> content = new HashMap<>();
+        content.put("name", "桜");
+        content.put("uin", "1820702789");
+        if (messageType) {
+            content.put("content", message);
+        } else {
+            HashMap<Object, Object> text = new HashMap<>();
+            text.put("text", message);
+            HashMap<Object, Object> textMap = new HashMap<>();
+            textMap.put("type", "text");
+            textMap.put("data", text);
+            List<HashMap<Object, Object>> list = new ArrayList<>();
+            list.add(textMap);
+            content.put("content", list);
+        }
+
+        messageMap.put("type", "node");
+        messageMap.put("data", content);
+        return messageMap;
+    }
+
+    public void sendGroupMessage(long group_id, String message) {
+        String str = null;
+
+        try {
+            str = URLEncoder.encode(message, "UTF-8");
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+        String url = "http://" + FileConfig.CqHttpIp + ":5700/send_group_forward_msg?group_id=" + group_id + "&messages=" +
+                str;
+        String result = HttpRequestUtil.doGet(url, new HashMap<>());
+        log.info("发送成功:==>{}", result);
+    }
+
+    public void sendMessage(long group_id, String message) {
+        String str = null;
+        try {
+            str = URLEncoder.encode(message, "UTF-8");
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+
+        String url = "http://" + FileConfig.CqHttpIp + ":5700/send_group_msg?group_id=" + group_id + "&message=" +
+                str;
+        String result = HttpRequestUtil.doGet(url, new HashMap<>());
+        log.info("发送成功:==>{}", result);
+    }
+
+    public void sendImage(String url) {
+        String result = HttpRequestUtil.doGet(url, new HashMap<>());
+        log.info("发送成功:==>{}", result);
     }
 }

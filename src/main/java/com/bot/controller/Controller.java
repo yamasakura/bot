@@ -24,7 +24,7 @@ public class Controller {
     @ApiOperation(value = "检查企鹅数据")
     @GetMapping("penguin")
     public Result checkPenguinData() {
-        String message = botService.checkData();
+        String message = botService.checkPenguinData();
         return Result.success(message);
     }
 

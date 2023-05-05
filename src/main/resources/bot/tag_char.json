@@ -1,4 +1,17 @@
 [
+   {
+    "charId": "char_358_lisa",
+    "level": "高级资深干员",
+    "name": "铃兰",
+    "position": "远程位",
+    "profession": "辅助干员",
+    "rarity": 6,
+    "tags": [
+      "减速",
+      "支援",
+      "输出"
+    ]
+  },
   {
     "charId": "char_197_poca",
     "level": "高级资深干员",
@@ -264,6 +277,18 @@
     "tags": [
       "群攻",
       "爆发"
+    ]
+  },
+  {
+    "charId": "char_294_ayer",
+    "level": "资深干员",
+    "name": "断崖",
+    "position": "近战位",
+    "profession": "近卫干员",
+    "rarity": 5,
+    "tags": [
+      "群攻",
+      "输出"
     ]
   },
   {
@@ -725,6 +750,18 @@
     "tags": [
       "群攻",
       "削弱"
+    ]
+  },
+  {
+    "charId": "char_328_cammou",
+    "level": "0",
+    "name": "卡达",
+    "position": "远程位",
+    "profession": "术师干员",
+    "rarity": 4,
+    "tags": [
+      "输出",
+      "控场"
     ]
   },
   {
