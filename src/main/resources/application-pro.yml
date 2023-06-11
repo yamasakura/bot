@@ -3,8 +3,8 @@ server:
 
 
 filePath:
-  bot: src/main/resources/bot/
-  cqHttpIp: 127.0.0.1
-  check: src/main/resources/check/
+  bot: /bot/
+  cqHttpIp: 10.0.4.17
+  check: /bot/
 
 

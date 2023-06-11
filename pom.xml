@@ -111,6 +111,18 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+        <resources>
+            <!-- 打包时手动排除下列文件 -->
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>false</filtering>
+                <excludes>
+                    <!-- 相对路径 -->
+                    <exclude>auto/**</exclude>
+
+                </excludes>
+            </resource>
+        </resources>
     </build>
 
 </project>

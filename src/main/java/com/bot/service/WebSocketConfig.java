@@ -43,7 +43,7 @@ public class WebSocketConfig {
                         String raw_message = qqMessage.getString("raw_message").trim();
 
                         long group_id = Long.parseLong(qqMessage.getString("group_id"));
-                      group_id = 562528726; //测试群
+//                      group_id = 562528726; //测试群
 //                      group_id =  938710832;
 //                      group_id =  761817128;  //调用区
 
