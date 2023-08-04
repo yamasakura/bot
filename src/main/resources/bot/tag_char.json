@@ -1,17 +1,28 @@
 [
-   {
-    "charId": "char_358_lisa",
+  {
+    "charId": "char_293_thorns",
     "level": "高级资深干员",
-    "name": "铃兰",
-    "position": "远程位",
-    "profession": "辅助干员",
+    "name": "棘刺",
+    "position": "近战位",
+    "profession": "近卫干员",
     "rarity": 6,
     "tags": [
-      "减速",
-      "支援",
+      "防护",
       "输出"
     ]
-  },
+  },{
+  "charId": "char_358_lisa",
+  "level": "高级资深干员",
+  "name": "铃兰",
+  "position": "远程位",
+  "profession": "辅助干员",
+  "rarity": 6,
+  "tags": [
+    "减速",
+    "支援",
+    "输出"
+  ]
+},
   {
     "charId": "char_197_poca",
     "level": "高级资深干员",
@@ -265,6 +276,42 @@
     "tags": [
       "费用回复",
       "输出"
+    ]
+  },
+  {
+    "charId": "char_349_chiave",
+    "level": "资深干员",
+    "name": "贾维",
+    "position": "近战位",
+    "profession": "先锋干员",
+    "rarity": 5,
+    "tags": [
+      "输出",
+      "费用回复"
+    ]
+  },
+  {
+    "charId": "char_218_cuttle",
+    "level": "资深干员",
+    "name": "安哲拉",
+    "position": "远程位",
+    "profession": "狙击干员",
+    "rarity": 5,
+    "tags": [
+      "输出",
+      "减速"
+    ]
+  },
+  {
+    "charId": "char_344_beewax",
+    "level": "资深干员",
+    "name": "蜜蜡",
+    "position": "远程位",
+    "profession": "术师干员",
+    "rarity": 5,
+    "tags": [
+      "群攻",
+      "防护"
     ]
   },
   {
@@ -750,6 +797,18 @@
     "tags": [
       "群攻",
       "削弱"
+    ]
+  },
+  {
+    "charId": "char_272_strong",
+    "level": "0",
+    "name": "孑",
+    "position": "近战位",
+    "profession": "特种干员",
+    "rarity": 4,
+    "tags": [
+      "输出",
+      "快速复活"
     ]
   },
   {
