@@ -172,7 +172,7 @@ public class BotService {
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         SimpleDateFormat daySdf = new SimpleDateFormat("dd");
         SimpleDateFormat monthSdf = new SimpleDateFormat("MM");
-        String endTime = "2023-08-02 03:59:00";
+        String endTime = "2023-11-01 16:00:00";
         Date endDate = null;
 
 //        String cakeStr = ReadFileUtil.readFile(botFilePath + "honeyCake.json"); //预测活动奖励
